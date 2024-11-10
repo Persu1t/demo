@@ -1,0 +1,124 @@
+.alert{
+    margin-bottom: 0px;
+    background-color: #ffaa01;
+}
+
+.admission-link:hover{
+    cursor: pointer;
+}
+
+
+.bgColor{
+    background-color: #2e3192;
+}
+
+.nav-link{
+    color: white;
+}
+
+.nav-link:hover{
+    color: #ffaa01;
+    cursor: pointer;
+}
+
+.current-active{
+    text-decoration: none;
+    color: #212529;
+}
+
+.current-active:hover{
+    color: #ffaa01;
+    cursor: pointer;
+}
+
+.height-value{
+    height: 75vh;
+}
+
+.img-height{
+    height: 75vh;
+}
+
+.chancellor-img{
+    height: 45vh;
+}
+
+.card-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.notices{
+    list-style: none;
+}
+
+.margin-value{
+    margin-top: 10vh;
+}
+
+.helpline-section {
+    padding: 40px 0;
+    width: 100%;
+    font-family: Arial, sans-serif;
+    margin-bottom: 15px;
+}
+
+.helpline-section h2 {
+    color: #333;
+    font-weight: bold;
+}
+
+.helpline-section p {
+    color: #555;
+}
+
+.helpline-table {
+    width: 100%;
+    max-width: 1200px;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+.helpline-table thead th {
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.helpline-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.helpline-table tbody tr:nth-child(odd) {
+    background-color: #fff;
+}
+
+.helpline-table td {
+    padding: 15px;
+    text-align: center;
+    font-size: 15px;
+    color: #333;
+}
+
+.helpline-table i {
+    font-style: italic;
+    color: #555;
+}
+
+.contact-info {
+    margin-top: 20px;
+    color: #333;
+}
+
+.contact-info a {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+.contact-info a:hover {
+    color: #333;
+}
