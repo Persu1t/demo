@@ -1,3 +1,4 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 .alert{
     margin-bottom: 0px;
     background-color: #ffaa01;
@@ -121,4 +122,9 @@
 
 .contact-info a:hover {
     color: #333;
+}
+
+
+.dropdown-item:hover{
+
 }
