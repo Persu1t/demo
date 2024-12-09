@@ -33,11 +33,11 @@
 }
 
 .height-value{
-    height: 75vh;
+    height: 60vh;
 }
 
 .img-height{
-    height: 75vh;
+    height: 60vh;
 }
 
 .chancellor-img{
@@ -47,7 +47,6 @@
 .card-container{
     display: flex;
     justify-content: space-around;
-    align-items: center;
     flex-wrap: wrap;
 }
 
@@ -125,6 +124,26 @@
 }
 
 
-.dropdown-item:hover{
+/* .dropdown-item:hover{
 
+} */
+@media only screen and (min-width: 992px) {
+    .col-lg-4{
+        width: 25%;
+    }
+}
+
+.grid-system{
+    display: grid;
+    grid-gap: 5vw;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+
+.flex-system{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    box-shadow: 3px 3px 3px 3px #e4e4e4;
 }
